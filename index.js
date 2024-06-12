@@ -194,9 +194,12 @@ function knowMore(){allBlogs.style.height="200vh";}
 const  cmnt=document.querySelector(".comment-section");
 const scialName=document.querySelector(".social-name");
 cmnt.addEventListener("mouseover",cmntSec);
-function cmntSec(){scialName.style.width="20vw";};
-cmnt.addEventListener("mouseout",cmntSecs);
-function cmntSecs(){scialName.style.width="0vw";};
+function cmntSec(){scialName.style.width="20vw";
+                    if(window.matchMedia("(orientation:portrait)").matches){scialName.style.width="60vw"}};
+
+function leaveComment(){cmnt.style.display="block";}
+function exitCmntBx(){cmnt.style.display="none";}
+
 /*
 const myInterval=setInterval(myFunc,2000); //1000 means 1sec so if we put in 2000 it means  2 sec----
 function myFunc(){ // some  declarations here

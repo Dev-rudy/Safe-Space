@@ -43,7 +43,7 @@
 html{height:100vh;width:100%;overflow-x:hidden;box-sizing:border-box;font-size:1rem;font-family:American Typewriter, serif;}
 *{margin:0;padding:0;box-sizing:border-box;transition-duration:.5s;}
 body{background: rgb(93,92,92);
-background:url("https://i.pinimg.com/originals/8e/bc/f8/8ebcf8b25250555fff2738fe1ab1f84d.jpg");background-size:cover;background-position:center;background-repeat:repeat-y;}
+background:url("https://content.invisioncic.com/g327141/monthly_2018_08/large.1267881955_EasternVeil.jpg.c73412fec54f07cd18d6134caade0473.jpg");background-size:cover;background-position:center;background-repeat:repeat-y;}
 	a{text-decoration:none;color:white;}
 	.wrapper{height:300vh;width:100%;border:1px solid transparent;margin-bottom:0}
 .nav-container{width:100%;height:10vh;border:1px  solid  transparent;position:relative;top:0px;background: rgb(0,2,2);
@@ -207,15 +207,15 @@ footer{margin-top:50vh;height:5vh;position:relative;bottom:0;}
 .slider-icon:hover{width:45vw;height:80vh;}
 .add{margin-top:10vh;}
 
-.comment-section{width:100%;height:50vh;margin-top:40vh;}
-.comment-section-exit{height:10vh;width:11vw;top:-15vh;}
+.comment-section{width:100%;height:50vh;margin-top:40vh;display:none;}
+.comment-section-exit{height:10vh;width:14vw;top:-30vh;right:-2vw;}
 .comment-box{left:0;width:100%;}
 .page-banner-container{top:-26vh;left:5vw;width:90%;height:15vh;}
 .page-title{height:3vh;}
 .logo-box{width:11vw;height:6vh;left:70vw;top:-12.5vh;z-index:2;}
 .social-logo{top:1vh;width:10vw;height:9vh;left:10vw;}
 .social-name{width:60vw;height:5vh;top:-3vh;left:15vw;border-radius:20vw;text-align:center;}
-	footer{margin-top:3vh;height:4vh;margin-bottom:0;z-index:-1;}
+	footer{margin-top:80vh;height:4vh;margin-bottom:0;z-index:-1;}
 	.foot-info{margin-top:35vh;}
 }
 

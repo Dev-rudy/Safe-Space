@@ -118,6 +118,7 @@ background: linear-gradient(156deg, rgba(249,249,249,0.8484185910692402) 36%, rg
 .comment-section-exit{position:absolute;right:-5vw;top:-9vh;z-index:2;border:0px  solid transparent;width:10vw;height:20vh;
 background:url("https://static.vecteezy.com/system/resources/previews/013/775/713/non_2x/3d-cross-sign-on-a-transparent-background-free-png.png");
 background-position:center;background-size:cover;background-repeat:no-repeat;}
+.fb-comments{background:lightblue;}
 footer{margin-top:50vh;height:5vh;position:relative;bottom:0;}
 .foot-info{color:gray;font-size:.5rem;text-align:center;margin-top:7vh;}
 /*--------------------------------------------------------------------------------------------------------------------------------------------------------------*/

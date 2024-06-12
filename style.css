@@ -1,3 +1,45 @@
+/* Firefox (uncomment to work in Firefox, although other properties will not work!)  */
+/** {
+  scrollbar-width: thin;
+  scrollbar-color: #AEAEAE #DFE9EB;
+}*/
+
+/* Chrome, Edge and Safari */
+*::-webkit-scrollbar {
+  height: 9px;
+  width: 9px;
+}
+*::-webkit-scrollbar-track {
+  border-radius: 4px;
+  background-color: #DFE9EB;
+  border: 6px inset #000000;
+}
+
+*::-webkit-scrollbar-track:hover {
+  background-color: #B8C0C2;
+}
+
+*::-webkit-scrollbar-track:active {
+  background-color: #B8C0C2;
+}
+
+*::-webkit-scrollbar-thumb {
+  border-radius: 20px;
+  background-color: #AEAEAE;
+}
+
+*::-webkit-scrollbar-thumb:hover {
+  background-color: #22DAFF;
+}
+
+*::-webkit-scrollbar-thumb:active {
+  background-color: #FFFFFF;
+}
+
+
+
+
+
 html{height:100vh;width:100%;overflow-x:hidden;box-sizing:border-box;font-size:1rem;font-family:American Typewriter, serif;}
 *{margin:0;padding:0;box-sizing:border-box;transition-duration:.5s;}
 body{background: rgb(93,92,92);
@@ -105,6 +147,8 @@ background: linear-gradient(156deg, rgba(0,2,2,0.814805145691089) 66%, rgba(255,
 .slider-items:hover{color:black;background:white;font-size:1.5rem;border-radius:1vw;}
 
 .add{width:90%;height:40vh;background:red;margin-top:11vh;border-radius:.5vw;background:transparent;background-image:url("https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExdGw4cXRrZG95M2FyaDYxendlM3phZnYwdG04ZWd5b213dmw5NjAzcSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/G8h8HVvfkPHUTWrtp6/giphy.gif");background-size:cover;background-repeat:no-repeat;background-position:center;}
+
+
 .comment-section{width:90%;height:70vh;border:0px  solid  transparent;margin:auto;margin-top:40vh;position:relative;}
 .page-banner-container{overflow:hidden;position:absolute;left:0;top:-10vh;height:90vh;width:30vw;box-shadow:0 0 10px 10px lightblue;
 border:0px solid transparent;border-radius:3vw;background:url("https://e0.pxfuel.com/wallpapers/279/176/desktop-wallpaper-outer-planets-blue-planet.jpg");background-size:cover;background-position:center;background-repeat:no-repeat;}
@@ -116,7 +160,7 @@ background: linear-gradient(156deg, rgba(249,249,249,0.8484185910692402) 36%, rg
 .logo-box{position:relative;width:14vw;height:25.5vh;top:-7vh;left:7.5vw;border-radius:2vw;box-shadow:0 0 10px 10px lightblue;background:url("icon.png");background-position:center;background-size:cover;background-repeat:no-repeat;}
 .comment-box{overflow-y:scroll;position:relative;left:30vw;top:-10vh;border:1vw inset lightblue;width:59vw;height:90vh;border-radius:1vw;background: rgb(249,249,249);
 background: linear-gradient(156deg, rgba(249,249,249,0.8484185910692402) 36%, rgba(13,158,224,1) 100%);}
-.comment-section-exit{position:absolute;right:-5vw;top:-9vh;z-index:2;border:0px  solid transparent;width:10vw;height:20vh;
+.comment-section-exit{position:absolute;right:-5vw;top:-18vh;z-index:2;border:0px  solid transparent;width:10vw;height:20vh;
 background:url("https://static.vecteezy.com/system/resources/previews/013/775/713/non_2x/3d-cross-sign-on-a-transparent-background-free-png.png");
 background-position:center;background-size:cover;background-repeat:no-repeat;}
 #disqus_thread{height:100%;width:100%;}
@@ -162,6 +206,15 @@ footer{margin-top:50vh;height:5vh;position:relative;bottom:0;}
 .slider-icon{width:5vw;}
 .slider-icon:hover{width:45vw;height:80vh;}
 .add{margin-top:10vh;}
+
+.comment-section{width:100%;height:50vh;margin-top:40vh;}
+.comment-section-exit{height:10vh;width:11vw;top:-15vh;}
+.comment-box{left:0;width:100%;}
+.page-banner-container{top:-26vh;left:5vw;width:90%;height:15vh;}
+.page-title{height:3vh;}
+.logo-box{width:11vw;height:6vh;left:70vw;top:-12.5vh;z-index:2;}
+.social-logo{top:1vh;width:10vw;height:9vh;left:10vw;}
+.social-name{width:60vw;height:5vh;top:-3vh;left:15vw;border-radius:20vw;text-align:center;}
 	footer{margin-top:3vh;height:4vh;margin-bottom:0;z-index:-1;}
 	.foot-info{margin-top:35vh;}
 }
